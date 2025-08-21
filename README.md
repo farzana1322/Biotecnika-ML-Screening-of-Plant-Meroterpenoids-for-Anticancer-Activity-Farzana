@@ -14,10 +14,11 @@ To build a reproducible ML pipeline for screening plant-derived meroterpenoids f
 
 ## 📁 Project Structure
 
-Biotecnika-ML-Screening/ 
-├── data/ 
-│ ├── raw_meroterpenoids.csv 
-│ └── curated_smiles.csv 
+Biotecnika-ML-Screening/
+├── data/
+│   ├── raw_meroterpenoids.csv
+│   ├── curated_smiles.csv
+│   └── descriptor_matrix.csv
 ├── notebooks/ 
 │ ├── step1_literature_mining.ipynb 
 │ ├── step2_smiles_cleaning.ipynb 
@@ -58,3 +59,8 @@ Biotecnika-ML-Screening/
 - Fully documented pipeline with Markdown and comments  
 - Clean GitHub structure for reproducibility  
 - Ready for descriptor generation and ML modeling in next steps
+
+### Step 3B — Descriptor Matrix Generation  
+- Computed physicochemical descriptors using RDKit  
+- Generated 1024-bit ECFP fingerprints for each compound  
+- Saved ML-ready feature matrix to `descriptor_matrix.csv`
