@@ -1,4 +1,8 @@
 import pandas as pd
+import os
+
+# Ensure the folder exists
+os.makedirs('data', exist_ok=True)
 
 # Define your curated SMILES
 data = {
@@ -14,5 +18,5 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_csv('../data/curated_smiles.csv', index=False)
+df.to_csv('data/curated_smiles.csv', index=False)
 print("✅ curated_smiles.csv updated with all 6 compounds")

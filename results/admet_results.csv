@@ -1,0 +1,7 @@
+compound_id,GI_Absorption,BBB_Permeability,CYP3A4_Inhibitor,AMES_Toxicity,Hepatotoxicity
+CMPD002,High,Yes,No,No,Yes
+CMPD005,High,Yes,No,No,No
+CMPD003,High,Yes,No,No,No
+CMPD004,High,Yes,No,No,No
+CMPD006,High,Yes,No,No,Yes
+CMPD001,High,Yes,No,No,Yes
