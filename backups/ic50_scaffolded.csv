@@ -1,0 +1,4 @@
+Compound_ID,SMILES,IC50_uM
+M001,Cc1ccccc1C(=O)O,1000
+M002,CN(C)C(=O)c1ccc(O)cc1,10000
+M120,COCC(C)(c1c(CC(C)C)ccc(C(=O)O)c1C(C)CO)C(C)(COC)C(C)(C)O,10
