@@ -3,13 +3,13 @@ M001,Cc1ccccc1C(=O)O
 M002,CN(C)C(=O)c1ccc(O)cc1
 M003,CC(C)Cc1ccc(O)cc1
 M004,COc1ccccc1C(=O)O
-M005,Cc1ccccc1O
+M005,CC1=CC=CC=C1O
 M006,Cc1ccc(C(=O)O)cc1
-M007,Cc1ccc(O)c(C)c1
+M007,Cc1cc(C)ccc1O
 M008,CC(C)C(=O)Nc1ccc(O)cc1
 M009,Cc1ccc(C(=O)N(C)C)cc1
 M010,COc1ccc(C(=O)O)cc1
-M011,CN1CCC(C(=O)O)CC1
+M011,CN1CCC(CC1)C(=O)O
 M012,Cc1ccc(O)c(C(=O)O)c1
 M013,CC(C)Oc1ccc(C(=O)O)cc1
 M014,Cc1ccccc1C(=O)N(C)C
