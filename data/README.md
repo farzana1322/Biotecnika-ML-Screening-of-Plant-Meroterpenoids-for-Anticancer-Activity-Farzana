@@ -14,3 +14,6 @@ These files are essential for reproducibility, modeling, and recruiter-grade cla
 - `ic50_values_resimulated.csv` – Refined scaffolded IC50 values
 
 This folder is locked by ritual. Treat it with respect.
+
+`ic50_scaffolded.csv` contains merged descriptors and IC50 values used for regression modeling (Step 9).  
+Generated via feature selection and Gradient Boosting. See main README for details.
